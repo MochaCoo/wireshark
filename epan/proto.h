@@ -48,7 +48,7 @@ extern "C" {
 WS_DLL_PUBLIC int hf_text_only;
 
 /** the maximum length of a protocol field string representation */
-#define ITEM_LABEL_LENGTH       240
+#define ITEM_LABEL_LENGTH       0x2000
 
 #define ITEM_LABEL_UNKNOWN_STR  "Unknown"
 
